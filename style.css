@@ -1,0 +1,132 @@
+:root{
+    --laranja:#f7b600
+}
+
+body{
+    background-color: #e6e6e6;
+}
+.cabecalho__menu-itens{
+    display: flex;
+    justify-content: center;
+}
+
+/* Layout */
+
+.menu__site{
+    background-color: var(--laranja);
+    padding: 15px;
+    text-align: center;
+}
+
+.cabecalho{
+    margin-bottom: 1em;
+}
+.cabecalho__link{
+    text-decoration: none;
+    padding: 0.3em;
+    color: white;
+}
+
+.cabecalho__link:visited,
+.cabecalho__link:link{
+    color: #FFF;
+}
+
+.cabecalho__link:hover{
+    background-color: white;
+    color:var(--laranja) ;
+}
+.cabecalho__logo{
+    font-size: 2.5em;
+    font-weight: 800;
+    
+    text-shadow: 0.5em;
+}
+.titulo__branco{
+    color: white;
+}
+/*Area Principal*/
+
+.area__principal{
+    
+    margin: 0 auto;
+    width: 920px;
+}
+.area__postagem{
+    width: 660px;
+}
+.area__lateral{
+    width: 240px;
+}
+.postagem__principal{
+    display: flex;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.titulo__postagem{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--laranja);
+}
+.postagem__img{
+    width: 600px;
+}
+
+.postagem__principal{
+    padding: 15px;
+}
+.data__postagem{
+    font-size: 0.8em;
+}
+
+.postagem__link{
+    text-decoration: none;
+    color: var(--laranja);
+}
+.postagem__link:hover{
+    background-color: #CCC;
+    color: white;
+}
+
+/* Area Lateral*/
+.postagem__lateral{
+    background-color: white;
+    margin-left: 0.8em;
+    padding: 0.5em;
+}
+.titulo__lateral{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 0.4em;
+    background-color:gray;
+    color: white;
+}
+.texto__lateral{
+    font-size: 0.7em;
+    padding: 5px;
+}
+.lateral__link{
+    font-size: 0.7em;
+    text-decoration: none;
+}
+.lateral__link:hover{
+    background-color: gray;
+    color: white;
+}
+.lateral__link{
+    text-decoration: none;
+    color: var(--laranja);
+}
+/*rodape*/
+
+footer h3{
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#CCC;
+    padding: 10px;
+}
